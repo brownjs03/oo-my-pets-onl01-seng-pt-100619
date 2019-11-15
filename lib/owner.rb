@@ -39,7 +39,7 @@ class Owner
   end 
   
   def buy_dog(name)
-    Dog.new(name, owner = self)
+    Dog.new(name, self)
   end 
   
 end
